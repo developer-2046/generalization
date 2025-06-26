@@ -1,0 +1,266 @@
+{
+    "400": {
+        "transformer_nano": {
+            "arch_type": "transformer",
+            "n_params": 3243968,
+            "train_loss": 10.384933471679688,
+            "val_loss": 10.57417106628418,
+            "gen_gap": 0.1892375946044922,
+            "training_time": 0.8878424167633057
+        },
+        "transformer_micro": {
+            "arch_type": "transformer",
+            "n_params": 6637056,
+            "train_loss": 10.030638504028321,
+            "val_loss": 10.351480484008789,
+            "gen_gap": 0.32084197998046804,
+            "training_time": 0.9691689014434814
+        },
+        "lstm_nano": {
+            "arch_type": "lstm",
+            "n_params": 3283601,
+            "train_loss": 10.768230056762695,
+            "val_loss": 10.7868013381958,
+            "gen_gap": 0.018571281433105824,
+            "training_time": 0.9243052005767822
+        },
+        "lstm_micro": {
+            "arch_type": "lstm",
+            "n_params": 6616273,
+            "train_loss": 10.64995880126953,
+            "val_loss": 10.6483793258667,
+            "gen_gap": -0.0015794754028313207,
+            "training_time": 1.020772933959961
+        },
+        "gru_nano": {
+            "arch_type": "gru",
+            "n_params": 3279377,
+            "train_loss": 10.70586280822754,
+            "val_loss": 10.740675926208496,
+            "gen_gap": 0.03481311798095632,
+            "training_time": 0.9430468082427979
+        },
+        "gru_micro": {
+            "arch_type": "gru",
+            "n_params": 6582993,
+            "train_loss": 10.47445297241211,
+            "val_loss": 10.548925399780273,
+            "gen_gap": 0.07447242736816406,
+            "training_time": 1.0302870273590088
+        },
+        "mlp_nano": {
+            "arch_type": "mlp",
+            "n_params": 3268817,
+            "train_loss": 10.729716110229493,
+            "val_loss": 10.758218765258789,
+            "gen_gap": 0.028502655029296164,
+            "training_time": 0.8331327438354492
+        },
+        "mlp_micro": {
+            "arch_type": "mlp",
+            "n_params": 6499793,
+            "train_loss": 10.713092803955078,
+            "val_loss": 10.733704566955566,
+            "gen_gap": 0.02061176300048828,
+            "training_time": 0.8912217617034912
+        }
+    },
+    "800": {
+        "transformer_nano": {
+            "arch_type": "transformer",
+            "n_params": 3243968,
+            "train_loss": 10.139127922058105,
+            "val_loss": 10.329978307088217,
+            "gen_gap": 0.19085038503011198,
+            "training_time": 1.6266658306121826
+        },
+        "transformer_micro": {
+            "arch_type": "transformer",
+            "n_params": 6637056,
+            "train_loss": 9.545262622833253,
+            "val_loss": 9.90255610148112,
+            "gen_gap": 0.35729347864786654,
+            "training_time": 1.9131622314453125
+        },
+        "lstm_nano": {
+            "arch_type": "lstm",
+            "n_params": 3283601,
+            "train_loss": 10.60546054840088,
+            "val_loss": 10.585491180419922,
+            "gen_gap": -0.019969367980957387,
+            "training_time": 1.8175220489501953
+        },
+        "lstm_micro": {
+            "arch_type": "lstm",
+            "n_params": 6616273,
+            "train_loss": 9.99163360595703,
+            "val_loss": 10.241041819254557,
+            "gen_gap": 0.24940821329752616,
+            "training_time": 1.9991278648376465
+        },
+        "gru_nano": {
+            "arch_type": "gru",
+            "n_params": 3279377,
+            "train_loss": 10.621522140502929,
+            "val_loss": 10.603562672932943,
+            "gen_gap": -0.017959467569985677,
+            "training_time": 1.8312230110168457
+        },
+        "gru_micro": {
+            "arch_type": "gru",
+            "n_params": 6582993,
+            "train_loss": 9.834354209899903,
+            "val_loss": 10.149761835734049,
+            "gen_gap": 0.31540762583414583,
+            "training_time": 2.08084774017334
+        },
+        "mlp_nano": {
+            "arch_type": "mlp",
+            "n_params": 3268817,
+            "train_loss": 10.565839576721192,
+            "val_loss": 10.556596120198568,
+            "gen_gap": -0.009243456522623816,
+            "training_time": 1.6068439483642578
+        },
+        "mlp_micro": {
+            "arch_type": "mlp",
+            "n_params": 6499793,
+            "train_loss": 9.866955661773682,
+            "val_loss": 9.493172327677408,
+            "gen_gap": -0.37378333409627373,
+            "training_time": 1.6668386459350586
+        }
+    },
+    "1600": {
+        "transformer_nano": {
+            "arch_type": "transformer",
+            "n_params": 3243968,
+            "train_loss": 9.66432328224182,
+            "val_loss": 9.757783126831054,
+            "gen_gap": 0.0934598445892334,
+            "training_time": 3.215205669403076
+        },
+        "transformer_micro": {
+            "arch_type": "transformer",
+            "n_params": 6637056,
+            "train_loss": 8.83333797454834,
+            "val_loss": 8.955999755859375,
+            "gen_gap": 0.12266178131103622,
+            "training_time": 3.7071971893310547
+        },
+        "lstm_nano": {
+            "arch_type": "lstm",
+            "n_params": 3283601,
+            "train_loss": 10.073697090148926,
+            "val_loss": 10.174264907836914,
+            "gen_gap": 0.10056781768798828,
+            "training_time": 3.7069592475891113
+        },
+        "lstm_micro": {
+            "arch_type": "lstm",
+            "n_params": 6616273,
+            "train_loss": 9.262812948226928,
+            "val_loss": 9.718910598754883,
+            "gen_gap": 0.4560976505279548,
+            "training_time": 3.941120147705078
+        },
+        "gru_nano": {
+            "arch_type": "gru",
+            "n_params": 3279377,
+            "train_loss": 9.96433253288269,
+            "val_loss": 10.108992576599121,
+            "gen_gap": 0.14466004371643137,
+            "training_time": 3.6282668113708496
+        },
+        "gru_micro": {
+            "arch_type": "gru",
+            "n_params": 6582993,
+            "train_loss": 9.213756799697876,
+            "val_loss": 9.693562316894532,
+            "gen_gap": 0.479805517196656,
+            "training_time": 3.975165843963623
+        },
+        "mlp_nano": {
+            "arch_type": "mlp",
+            "n_params": 3268817,
+            "train_loss": 10.090389299392701,
+            "val_loss": 9.91713924407959,
+            "gen_gap": -0.17325005531311177,
+            "training_time": 3.092707872390747
+        },
+        "mlp_micro": {
+            "arch_type": "mlp",
+            "n_params": 6499793,
+            "train_loss": 8.317223858833312,
+            "val_loss": 8.62267608642578,
+            "gen_gap": 0.30545222759246826,
+            "training_time": 3.2653355598449707
+        }
+    },
+    "3200": {
+        "transformer_nano": {
+            "arch_type": "transformer",
+            "n_params": 3243968,
+            "train_loss": 8.695575737953186,
+            "val_loss": 8.4470064163208,
+            "gen_gap": -0.24856932163238632,
+            "training_time": 6.476339340209961
+        },
+        "transformer_micro": {
+            "arch_type": "transformer",
+            "n_params": 6637056,
+            "train_loss": 7.193365585803986,
+            "val_loss": 6.859724235534668,
+            "gen_gap": -0.3336413502693176,
+            "training_time": 7.303011178970337
+        },
+        "lstm_nano": {
+            "arch_type": "lstm",
+            "n_params": 3283601,
+            "train_loss": 9.29266061782837,
+            "val_loss": 9.371168518066407,
+            "gen_gap": 0.07850790023803711,
+            "training_time": 7.205185651779175
+        },
+        "lstm_micro": {
+            "arch_type": "lstm",
+            "n_params": 6616273,
+            "train_loss": 8.683908462524414,
+            "val_loss": 8.823943996429444,
+            "gen_gap": 0.14003553390502965,
+            "training_time": 7.897128343582153
+        },
+        "gru_nano": {
+            "arch_type": "gru",
+            "n_params": 3279377,
+            "train_loss": 9.401899266242982,
+            "val_loss": 9.424753093719483,
+            "gen_gap": 0.02285382747650111,
+            "training_time": 7.189476251602173
+        },
+        "gru_micro": {
+            "arch_type": "gru",
+            "n_params": 6582993,
+            "train_loss": 8.679873299598693,
+            "val_loss": 8.804171562194824,
+            "gen_gap": 0.12429826259613108,
+            "training_time": 7.919543743133545
+        },
+        "mlp_nano": {
+            "arch_type": "mlp",
+            "n_params": 3268817,
+            "train_loss": 8.001075780391693,
+            "val_loss": 7.950040435791015,
+            "gen_gap": -0.05103534460067749,
+            "training_time": 6.11999249458313
+        },
+        "mlp_micro": {
+            "arch_type": "mlp",
+            "n_params": 6499793,
+            "train_loss": 7.771981012821198,
+            "val_loss": 7.973545265197754,
+            "gen_gap": 0.2015642523765564,
+            "training_time": 6.568343162536621
+        }
+    }
+}
