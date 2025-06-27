@@ -1,0 +1,560 @@
+{
+    "decoder_small_n1000": {
+        "config": {
+            "name": "decoder_small",
+            "arch_type": "decoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 778504,
+        "dataset_size": 1000,
+        "final_val_loss": 8.540182931082589,
+        "final_val_accuracy": 0,
+        "training_time_sec": 0.849186897277832,
+        "full_history": {
+            "train_loss": [
+                8.668384432792664,
+                8.58912217617035
+            ],
+            "val_loss": [
+                8.611155918666295,
+                8.540182931082589
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "decoder_small_n5000": {
+        "config": {
+            "name": "decoder_small",
+            "arch_type": "decoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 778504,
+        "dataset_size": 5000,
+        "final_val_loss": 7.959098815917969,
+        "final_val_accuracy": 0,
+        "training_time_sec": 4.188204288482666,
+        "full_history": {
+            "train_loss": [
+                8.526971804867884,
+                8.125466899507364
+            ],
+            "val_loss": [
+                8.281537890434265,
+                7.959098815917969
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "decoder_small_n10000": {
+        "config": {
+            "name": "decoder_small",
+            "arch_type": "decoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 778504,
+        "dataset_size": 10000,
+        "final_val_loss": 7.646903810046968,
+        "final_val_accuracy": 0,
+        "training_time_sec": 8.170848846435547,
+        "full_history": {
+            "train_loss": [
+                8.341599948870869,
+                7.849834673701765
+            ],
+            "val_loss": [
+                7.962199922591921,
+                7.646903810046968
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "decoder_base_n1000": {
+        "config": {
+            "name": "decoder_base",
+            "arch_type": "decoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 2343304,
+        "dataset_size": 1000,
+        "final_val_loss": 8.484364645821708,
+        "final_val_accuracy": 0,
+        "training_time_sec": 1.4939312934875488,
+        "full_history": {
+            "train_loss": [
+                8.65770137310028,
+                8.548330307006836
+            ],
+            "val_loss": [
+                8.61161640712193,
+                8.484364645821708
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "decoder_base_n5000": {
+        "config": {
+            "name": "decoder_base",
+            "arch_type": "decoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 2343304,
+        "dataset_size": 5000,
+        "final_val_loss": 7.790315628051758,
+        "final_val_accuracy": 0,
+        "training_time_sec": 7.65896201133728,
+        "full_history": {
+            "train_loss": [
+                8.402868112940697,
+                7.919638445422907
+            ],
+            "val_loss": [
+                8.05081057548523,
+                7.790315628051758
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "decoder_base_n10000": {
+        "config": {
+            "name": "decoder_base",
+            "arch_type": "decoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 2343304,
+        "dataset_size": 10000,
+        "final_val_loss": 7.1510741218688,
+        "final_val_accuracy": 0,
+        "training_time_sec": 14.62825608253479,
+        "full_history": {
+            "train_loss": [
+                8.170219592012156,
+                7.572315228251984
+            ],
+            "val_loss": [
+                7.781499529641772,
+                7.1510741218688
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encoder_small_n1000": {
+        "config": {
+            "name": "encoder_small",
+            "arch_type": "encoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 420618,
+        "dataset_size": 1000,
+        "final_val_loss": 2.439052036830357,
+        "final_val_accuracy": 0.08,
+        "training_time_sec": 0.5969915390014648,
+        "full_history": {
+            "train_loss": [
+                2.4278454780578613,
+                2.3634095191955566
+            ],
+            "val_loss": [
+                2.4392307826450894,
+                2.439052036830357
+            ],
+            "val_accuracy": [
+                0.09,
+                0.08
+            ]
+        }
+    },
+    "encoder_small_n5000": {
+        "config": {
+            "name": "encoder_small",
+            "arch_type": "encoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 420618,
+        "dataset_size": 5000,
+        "final_val_loss": 2.3828086853027344,
+        "final_val_accuracy": 0.114,
+        "training_time_sec": 2.7800567150115967,
+        "full_history": {
+            "train_loss": [
+                2.4212970126206708,
+                2.365122023661425
+            ],
+            "val_loss": [
+                2.4030404090881348,
+                2.3828086853027344
+            ],
+            "val_accuracy": [
+                0.106,
+                0.114
+            ]
+        }
+    },
+    "encoder_small_n10000": {
+        "config": {
+            "name": "encoder_small",
+            "arch_type": "encoder_only",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 420618,
+        "dataset_size": 10000,
+        "final_val_loss": 2.3302195715525795,
+        "final_val_accuracy": 0.098,
+        "training_time_sec": 5.619533061981201,
+        "full_history": {
+            "train_loss": [
+                2.407634601044579,
+                2.3310593675119806
+            ],
+            "val_loss": [
+                2.365353538876488,
+                2.3302195715525795
+            ],
+            "val_accuracy": [
+                0.098,
+                0.098
+            ]
+        }
+    },
+    "encoder_base_n1000": {
+        "config": {
+            "name": "encoder_base",
+            "arch_type": "encoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 1434378,
+        "dataset_size": 1000,
+        "final_val_loss": 2.39056396484375,
+        "final_val_accuracy": 0.07,
+        "training_time_sec": 0.9623448848724365,
+        "full_history": {
+            "train_loss": [
+                2.4164180755615234,
+                2.282442092895508
+            ],
+            "val_loss": [
+                2.401463099888393,
+                2.39056396484375
+            ],
+            "val_accuracy": [
+                0.085,
+                0.07
+            ]
+        }
+    },
+    "encoder_base_n5000": {
+        "config": {
+            "name": "encoder_base",
+            "arch_type": "encoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 1434378,
+        "dataset_size": 5000,
+        "final_val_loss": 2.3411922454833984,
+        "final_val_accuracy": 0.084,
+        "training_time_sec": 4.389708518981934,
+        "full_history": {
+            "train_loss": [
+                2.359161765712082,
+                2.298232935036823
+            ],
+            "val_loss": [
+                2.3384437561035156,
+                2.3411922454833984
+            ],
+            "val_accuracy": [
+                0.091,
+                0.084
+            ]
+        }
+    },
+    "encoder_base_n10000": {
+        "config": {
+            "name": "encoder_base",
+            "arch_type": "encoder_only",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 1434378,
+        "dataset_size": 10000,
+        "final_val_loss": 2.325900607638889,
+        "final_val_accuracy": 0.09,
+        "training_time_sec": 9.064247846603394,
+        "full_history": {
+            "train_loss": [
+                2.3464090755572333,
+                2.3025523420339957
+            ],
+            "val_loss": [
+                2.3167932903955855,
+                2.325900607638889
+            ],
+            "val_accuracy": [
+                0.1015,
+                0.09
+            ]
+        }
+    },
+    "encdec_small_n1000": {
+        "config": {
+            "name": "encdec_small",
+            "arch_type": "encoder_decoder",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 878728,
+        "dataset_size": 1000,
+        "final_val_loss": 8.588707515171595,
+        "final_val_accuracy": 0,
+        "training_time_sec": 1.2812750339508057,
+        "full_history": {
+            "train_loss": [
+                8.663238167762756,
+                8.592941045761108
+            ],
+            "val_loss": [
+                8.63871329171317,
+                8.588707515171595
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encdec_small_n5000": {
+        "config": {
+            "name": "encdec_small",
+            "arch_type": "encoder_decoder",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 878728,
+        "dataset_size": 5000,
+        "final_val_loss": 8.145373106002808,
+        "final_val_accuracy": 0,
+        "training_time_sec": 6.511044263839722,
+        "full_history": {
+            "train_loss": [
+                8.57555263057636,
+                8.313930535772045
+            ],
+            "val_loss": [
+                8.430259227752686,
+                8.145373106002808
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encdec_small_n10000": {
+        "config": {
+            "name": "encdec_small",
+            "arch_type": "encoder_decoder",
+            "n_layer": 2,
+            "n_head": 2,
+            "d_model": 64,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 878728,
+        "dataset_size": 10000,
+        "final_val_loss": 7.518325987316313,
+        "final_val_accuracy": 0,
+        "training_time_sec": 12.321564674377441,
+        "full_history": {
+            "train_loss": [
+                8.46822994585616,
+                7.923388301374051
+            ],
+            "val_loss": [
+                8.166413261776878,
+                7.518325987316313
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encdec_base_n1000": {
+        "config": {
+            "name": "encdec_base",
+            "arch_type": "encoder_decoder",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 3136904,
+        "dataset_size": 1000,
+        "final_val_loss": 8.574603489467076,
+        "final_val_accuracy": 0,
+        "training_time_sec": 2.248746871948242,
+        "full_history": {
+            "train_loss": [
+                8.664610624313354,
+                8.575279116630554
+            ],
+            "val_loss": [
+                8.631318773542132,
+                8.574603489467076
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encdec_base_n5000": {
+        "config": {
+            "name": "encdec_base",
+            "arch_type": "encoder_decoder",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 3136904,
+        "dataset_size": 5000,
+        "final_val_loss": 7.645566701889038,
+        "final_val_accuracy": 0,
+        "training_time_sec": 11.312776803970337,
+        "full_history": {
+            "train_loss": [
+                8.564401152786935,
+                8.072900832838313
+            ],
+            "val_loss": [
+                8.309889316558838,
+                7.645566701889038
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    },
+    "encdec_base_n10000": {
+        "config": {
+            "name": "encdec_base",
+            "arch_type": "encoder_decoder",
+            "n_layer": 4,
+            "n_head": 4,
+            "d_model": 128,
+            "vocab_size": 5000,
+            "seq_length": 32,
+            "num_classes": 10
+        },
+        "n_params": 3136904,
+        "dataset_size": 10000,
+        "final_val_loss": 6.159051289634099,
+        "final_val_accuracy": 0,
+        "training_time_sec": 22.45376992225647,
+        "full_history": {
+            "train_loss": [
+                8.326514369001785,
+                7.137605953521241
+            ],
+            "val_loss": [
+                7.626805381169395,
+                6.159051289634099
+            ],
+            "val_accuracy": [
+                0,
+                0
+            ]
+        }
+    }
+}
